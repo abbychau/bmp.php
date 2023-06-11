@@ -23,7 +23,33 @@ if ($bmpData) {
 encodeBMP($bmpData['pixels'], "encoded.bmp");
 echo "BMP file created successfully!";
 
+// Result:
+// Array
+// (
+//     [type] => 19778
+//     [size] => 196662
+//     [reserved1] => 0
+//     [reserved2] => 0
+//     [offset] => 54
+//     [headerSize] => 40
+//     [width] => 256
+//     [height] => 256
+//     [planes] => 1
+//     [bitsPerPixel] => 24
+//     [compression] => 0
+//     [imageSize] => 0
+//     [xPixelsPerMeter] => 0
+//     [yPixelsPerMeter] => 0
+//     [colorsUsed] => 0
+//     [importantColors] => 0
+// )
+// Pixel at (0, 0): 0, 0, 0
+// BMP file created successfully!
+
 ```
+
+
+
 
 ## License
 
