@@ -46,8 +46,8 @@ echo "BMP file created successfully!";
 // Pixel at (0, 0): 0, 0, 0
 // BMP file created successfully!
 
-```
 
+```
 
 
 

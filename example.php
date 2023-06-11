@@ -15,3 +15,7 @@ if ($bmpData) {
 
 encodeBMP($bmpData['pixels'], "encoded.bmp");
 echo "\nBMP file created successfully!";
+
+// include("jpg.php");
+// writeJPEG($bmpData['pixels'], "encoded.jpg");
+// echo "\nJPEG file created successfully!";
